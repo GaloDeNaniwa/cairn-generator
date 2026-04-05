@@ -438,7 +438,7 @@ Se FOR baixa→fragilidade. Se VON alta→determinação. Use antecedente como p
       {scr==="guard"&&<div style={{padding:"20px 0"}}><h2 style={{...sT,fontSize:16,marginBottom:16}}>🛡️ GUARDIÃO</h2>
         {gOn?<div><p style={{fontSize:14,color:Gr,marginBottom:16}}>✓ Ativo</p><p style={{fontSize:13,color:Mu,lineHeight:1.6,marginBottom:16}}>Edite fichas tocando nos valores. Gerencie créditos. Adicione/remova itens do inventário. Notas privadas.</p>
           <button style={{...sBtn,color:Ac,borderColor:`${Ac}60`}} onClick={()=>{setGOn(false);localStorage.removeItem("c_g");msg("Desativado.")}}>Desativar</button>
-        </div>:<div><p style={{fontSize:13,color:Mu,marginBottom:12,lineHeight:1.6}}>Editar fichas, gerenciar créditos e notas.</p><p style={{fontSize:11,color:Gd,marginBottom:8}}>Senhas: "cairn", "guardiao" ou "1234"</p>
+        </div>:<div><p style={{fontSize:13,color:Mu,marginBottom:12,lineHeight:1.6}}>Editar fichas, gerenciar créditos e notas.</p><p style={{fontSize:11,color:Gd,marginBottom:8}}>Senhas: "PAU NO CU DE QUEM TÁ LENDO"</p>
           <div style={{display:"flex",gap:8}}><input type="password" value={gPass} onChange={e=>setGPass(e.target.value)} onKeyDown={e=>e.key==="Enter"&&gLogin()} placeholder="Senha" style={{...sInp,flex:1}}/><button style={sBtnAct} onClick={gLogin}>Entrar</button></div>
         </div>}
         <button onClick={()=>setScr("home")} style={{...sBtnBack,marginTop:16}}>← Menu</button>
